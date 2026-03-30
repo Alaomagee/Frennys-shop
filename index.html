@@ -365,10 +365,12 @@ section{
 }
 
 /* cards below */
-.categories{
-  gap: 14px !important;
-}
 
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
 .card{
   border-radius: 16px !important;
 }
